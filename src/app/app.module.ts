@@ -8,10 +8,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CinepolisModule } from './cinepolis/cinepolis.module';
 import { ResistenciasModule } from './resistencias/resistencias.module';
 import { DistanciasModule } from './distancias/distancias.module';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
